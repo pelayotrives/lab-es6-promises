@@ -91,32 +91,31 @@ obtainInstruction("steak", 0)
     document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
     return obtainInstruction("steak", 1);
   })
-  .then((step0) => {
-    document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
+  .then((step1) => {
+    document.querySelector("#steak").innerHTML += `<li>${step1}</li>`;
     return obtainInstruction("steak", 2);
   })
-  .then((step0) => {
-    document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
+  .then((step2) => {
+    document.querySelector("#steak").innerHTML += `<li>${step2}</li>`;
     return obtainInstruction("steak", 3);
   })
-  .then((step0) => {
-    document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
+  .then((step3) => {
+    document.querySelector("#steak").innerHTML += `<li>${step3}</li>`;
     return obtainInstruction("steak", 4);
   })
-  .then((step0) => {
-    document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
+  .then((step4) => {
+    document.querySelector("#steak").innerHTML += `<li>${step4}</li>`;
     return obtainInstruction("steak", 5);
   })
-  .then((step0) => {
-    document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
+  .then((step5) => {
+    document.querySelector("#steak").innerHTML += `<li>${step5}</li>`;
     return obtainInstruction("steak", 6);
   })
-  .then((step0) => {
-    document.querySelector("#steak").innerHTML += `<li>${step0}</li>`;
+  .then((step6) => {
+    document.querySelector("#steak").innerHTML += `<li>${step6}</li>`;
     document.querySelector("#steakImg").removeAttribute("hidden");
     document.querySelector("#steak").innerHTML += `<li>Stake is ready!</li>`;
   });
-// ... Your code here
 
 // Iteration 3 using async/await
 // ...
